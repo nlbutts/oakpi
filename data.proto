@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message servo_cmd {
+  float rotate = 1;
+  float pitch = 2;
+  float frequency = 3;
+}
